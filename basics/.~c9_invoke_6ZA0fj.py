@@ -39,19 +39,8 @@ print(secondStr)
 firstName = 'jorge'
 lastName = 'unas'
 
-print(firstName.title())
-print(firstName.upper())
-
-fisrtName = 'JORGE'
-print(firstName.lower())
 
 
 #concatenation:
 
-fullName = fisrtName + ' ' + lastName 
 
-print(fullName)
-print(fullName.title()) # capitalize first letters
-
-# print(fullName.title() + ' is ' + 40 + ' years old.') # result in typeerror
-print(fullName.title() + ' is ' + str(40) + ' years old.') # result in typeerror
