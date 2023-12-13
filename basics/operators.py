@@ -51,3 +51,37 @@ a = 4
 print(a > 2 and a < 9)
 print(a > 3 or a == 5)
 print(not(a > 2 and a < 9))
+
+# identity operators
+print('identity operators')
+
+a = 3
+b = 4
+c = a
+
+print(a is b)
+print(a is c)
+print(a is not c)
+
+# membership operators
+print('membership operators')
+
+numbs = [1,2,3,4,5,6,7,8,9,10]
+
+print(10 in numbs)
+print(0 in numbs)
+print(0 not in numbs)
+
+#bitwise operators
+
+print('bitwise operators')
+
+a = 24 
+b = 60
+
+print(bin(24))
+print(bin(60))
+
+print(a & b)
+print(a | b)
+print(a ^ b)
