@@ -55,3 +55,33 @@ print(fullName.title()) # capitalize first letters
 
 # print(fullName.title() + ' is ' + 40 + ' years old.') # result in typeerror
 print(fullName.title() + ' is ' + str(40) + ' years old.') # result in typeerror
+
+#extra spaces: strip() lstrip() rstrip()
+
+country = '    Colombia   '
+
+print('The native string is: '+ '<' + country + '>')
+print('The strip() method results in: '+ '<' + country.strip() + '>')
+print('The lstrip() method results in: '+ '<' + country.lstrip() + '>')
+print('The rstrip() method results in: '+ '<' + country.rstrip() + '>')
+
+# booleans
+
+myBoolean = 20 > 14
+print(myBoolean)
+
+# A bit of practice --> 
+
+myInt = 15
+print(type(myInt))
+
+myFloat = 6.36
+print(type(myFloat))
+
+fstr = "Happy"
+sstr = "Birthday"
+tstr = "!"
+
+# Give the message:
+message = fstr + ' ' + sstr+ tstr
+print(message)
