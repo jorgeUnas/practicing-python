@@ -52,3 +52,35 @@ for elem in myList:  # in JS is for of loop
 
 print(len(myList))
 print(len(myNumbers))
+
+
+# sort()
+
+newList = ['yellow', 'red', 'green', 'grey', 'blue', 'purple']
+
+newList.sort()  # this modifys the original list
+
+print(newList)
+
+newList.sort(reverse=True)  # sort and then reverse the list
+
+print(newList)
+
+newList = ['yellow', 'red', 'green', 'grey', 'blue', 'purple'] # original list
+
+newList.reverse()  #reverse the original list   
+
+print(newList)
+
+# sorted() does not change the original list 
+
+
+newList = ['yellow', 'red', 'green', 'grey', 'blue', 'purple'] # original list
+
+sorted(newList)
+
+print(newList)
+print(sorted(newList))
+
+
+
