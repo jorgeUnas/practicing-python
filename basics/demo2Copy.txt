@@ -1,0 +1,2 @@
+Hi, I am a new paragraph.
+I am an appended paragraph.
